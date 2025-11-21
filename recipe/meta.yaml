@@ -1,5 +1,5 @@
 {% set name = "pathsim" %}
-{% set version = "0.13.0" %}
+{% set version = "0.13.1" %}
 {% set python_min = "3.8" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pathsim-{{ version }}.tar.gz
-  sha256: c992f9e40a41ef4f8e04dab13d8fca09218e78eb4d9ca0cf4727dc3e4a8ad396
+  sha256: 5dc5d2bc72307bfe0cd929c339d411a7514923cc3c6e35ba4f179d28530a0d13
 
 build:
   noarch: python
